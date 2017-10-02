@@ -1,5 +1,5 @@
 #!/bin/bash
-git add .
+git add --all
 if [ $# = 1 ] ; then
     git commit -m $1
 else

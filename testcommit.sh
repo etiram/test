@@ -5,3 +5,4 @@ if [ $# = 1 ] ; then
 else
     git commit -m "DEFAULT"
 fi
+git push
